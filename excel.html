@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="excel.html">Excel</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form id="excel-form">
+        <label for="numbers">Enter your numbers separated by spaces:</label>
+        <input type="text" id="numbers" required><br>
+
+        <label>Choose a function:</label><br>
+        <input type="radio" name="function" value="AutoSum" checked> AutoSum<br>
+        <input type="radio" name="function" value="Average"> Average<br>
+        <input type="radio" name="function" value="Max"> Max<br>
+        <input type="radio" name="function" value="Min"> Min<br>
+
+        <button type="button" id="calculate-button">Calculate</button>
+    </form>
+    <div id="result">Result will be printed here</div>
+</main>
+<footer>
+    <p>Georgian @ ILAC - HTML, CSS, and JavaScript Assignment#3 - Jashandeep Kaur and Husanpreet Kaur</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
